@@ -1,2 +1,11 @@
+/* Ensure holder takes full viewport width and height */
+.holder {
+    display: flex;              /* Enable flexbox layout */
+    justify-content: center;    /* Center items horizontally */
+    flex-wrap: wrap;            /* Allow wrapping to the next row */
+}
 
-/* Your CSS Code here. */
+.item {
+    flex: 0 1 auto;             /* Do not grow, shrink as needed, auto basis */
+    margin: 5px;                /* Optional: Add margin if needed to visually separate items */
+}
